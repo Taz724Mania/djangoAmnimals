@@ -7,7 +7,7 @@ export default function Index(props) {
     return (
         <>
             <h1>Add A Turtle</h1>
-            <Form>
+            <Form action="/create" method="POST">
                 <label htmlFor="name">
                     <input type="text" name="name" id="name" />
                 </label>
